@@ -1,0 +1,38 @@
+.home-container {
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #001529;
+  padding: 0 20px;
+}
+
+.home-title {
+  color: white !important;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+.input-section,
+.search-section {
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-list .ant-list-item {
+  display: flex;
+  justify-content: center;
+}
+
+.product-list .ant-card {
+  width: 100%;
+}
